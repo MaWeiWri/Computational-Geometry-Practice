@@ -18,7 +18,7 @@ public class ConvexHull {
 	
 	/**
 	 * 计算凸包围成图形的面积
-	 * @param points 凸包节点(注意使用scan方法后不要打乱顺序)
+	 * @param points 凸包节点(注意使用Jarvis类的scan方法后不要打乱顺序)
 	 * @return 面积
 	 */
 	public double getArea(List<Point> points){
